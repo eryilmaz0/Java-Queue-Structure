@@ -1,6 +1,8 @@
 package Base.Package.Structure;
 
 public interface Queue<T> {
+
+    //Abstract Methots for Queue Structure
     int getQueueLength();
     void clear();
     void printQueueInfo();
